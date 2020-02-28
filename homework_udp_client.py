@@ -1,3 +1,6 @@
+"""
+第二种方案
+"""
 from socket import *
 addr=('127.0.0.1',8088)
 sockfd=socket(AF_INET,SOCK_DGRAM)
